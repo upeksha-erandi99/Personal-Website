@@ -1090,3 +1090,16 @@ section {
   opacity: 0;
   pointer-events: none;
 }
+
+/*portfolio*/
+.portfolio-item {
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
