@@ -1080,17 +1080,6 @@ section {
   position: relative;
 }
 
-.portfolio-info {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  opacity: 0;
-  pointer-events: none;
-}
-
 /*portfolio*/
 .portfolio-item {
   overflow: hidden;
@@ -1102,4 +1091,51 @@ section {
 
 .portfolio-item:hover img {
   transform: scale(1.1);
+}
+
+/* Portfolio Wrap Styling */
+.portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+/* Image Styling */
+.portfolio-wrap img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Zoom Effect */
+.portfolio-wrap:hover img {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Portfolio Info (Hover Text) Styling */
+.portfolio-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px; /* Add padding inside the text container */
+  box-sizing: border-box; /* Ensure padding does not affect size */
+  text-align: center; /* Ensure multi-line text stays centered */
+}
+
+/* Show Info on Hover */
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
 }
