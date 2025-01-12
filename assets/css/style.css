@@ -1,7 +1,8 @@
-.BGCOLOR{
-  background:  rgb(246, 250, 255);
- 
+.BGCOLOR {
+  background: rgb(246, 250, 255);
+
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -1097,8 +1098,10 @@ section {
 .portfolio-wrap {
   position: relative;
   overflow: hidden;
-  border-radius: 10px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+  border-radius: 10px;
+  /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: Shadow effect */
 }
 
 /* Image Styling */
@@ -1110,7 +1113,8 @@ section {
 
 /* Hover Zoom Effect */
 .portfolio-wrap:hover img {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1);
+  /* Slight zoom on hover */
 }
 
 /* Portfolio Info (Hover Text) Styling */
@@ -1120,7 +1124,8 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  background: rgba(0, 0, 0, 0.6);
+  /* Dark overlay */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1130,9 +1135,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 10px; /* Add padding inside the text container */
-  box-sizing: border-box; /* Ensure padding does not affect size */
-  text-align: center; /* Ensure multi-line text stays centered */
+  padding: 10px;
+  /* Add padding inside the text container */
+  box-sizing: border-box;
+  /* Ensure padding does not affect size */
+  text-align: center;
+  /* Ensure multi-line text stays centered */
 }
 
 /* Show Info on Hover */
